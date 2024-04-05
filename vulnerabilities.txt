@@ -1,0 +1,17 @@
+20:FTP- is known for being outdated and insecure. As such, attackers frequently exploit it through: 1.Brute-forcing passwords 2.Anonymous authentication (it’s possible to log into the FTP port with “anonymous” as the username and password) 3.Cross-site scripting 3.Directory traversal attacks.
+21:FTP- is known for being outdated and insecure. As such, attackers frequently exploit it through: 1.Brute-forcing passwords 2.Anonymous authentication (it’s possible to log into the FTP port with “anonymous” as the username and password) 3.Cross-site scripting 3.Directory traversal attacks.
+22:Secure Shell(SSH)- is a TCP port for ensuring secure access to servers. Hackers can exploit port 22 by using leaked SSH keys or brute-forcing credentials.
+23:Telnet- has been superseded by SSH, but it’s still used by some websites. Since it’s outdated and insecure, it’s vulnerable to many attacks, including credential brute-forcing, spoofing and credential sniffing.
+25:Simple Mail Transfer Protocol(SMTP)- port for receiving and sending emails. Without proper configuration and protection, this TCP port is vulnerable to spoofing and spamming.
+53:Domain Name System(DNS)- is particularly vulnerable to DDoS attacks.
+137:NetBIOS over TCP- vulnerable to EternalBlue exploit.
+139:NetBIOS over TCP- vulnerable to EternalBlue exploit.
+80:HTTP- Hottest protocol on the internet, so often targeted by attackers. Especially vulnerable to cross-site scripting, SQL injections, cross-site request forgeries and DDoS attacks.
+443:HTTPS- Hottest protocol on the internet, so often targeted by attackers. Especially vulnerable to cross-site scripting, SQL injections, cross-site request forgeries and DDoS attacks.
+445:Server Message Block(SMB)- uses port 445 directly and ports 137 and 139 indirectly. Cybercriminals can exploit these ports through: 1.Using the EternalBlue exploit, which takes advantage of SMBv1 vulnerabilities in older versions of Microsoft computers (hackers used EternalBlue on the SMB port to spread WannaCry ransomware in 2017) 2.Capturing NTLM hashes 3.Brute-forcing SMB login credentials.
+1433:SQL Server- Default port for SQL Server and MySQL. Used to distribute malware or are directly attacked in DDoS scenarios. Quite often, attackers probe this port to find unprotected database with exploitable default configurations.
+1434:SQL Server Resolution Service- Default port for SQL Server and MySQL. Used to distribute malware or are directly attacked in DDoS scenarios. Quite often, attackers probe this port to find unprotected database with exploitable default configurations.
+3306:MySQL- Default port for SQL Server and MySQL. Used to distribute malware or are directly attacked in DDoS scenarios. Quite often, attackers probe this port to find unprotected database with exploitable default configurations.
+3389:Remote Desktop- is used in conjunction with various vulnerabilities in remote desktop protocols and to probe for leaked or weak user authentication. Remote desktop vulnerabilities are currently the most-used attack type; one example is the BlueKeep vulnerability.
+8080:Alternative HTTP- Hottest protocol on the internet, so often targeted by attackers. Especially vulnerable to cross-site scripting, SQL injections, cross-site request forgeries and DDoS attacks.
+8443:Alternative HTTPS- Hottest protocol on the internet, so often targeted by attackers. Especially vulnerable to cross-site scripting, SQL injections, cross-site request forgeries and DDoS attacks.

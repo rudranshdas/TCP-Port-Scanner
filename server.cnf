@@ -1,0 +1,20 @@
+[ req ]
+default_bits = 4096
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[ dn ]
+C=IN
+ST=Karnataka
+L=Bangalore
+O=PES University
+OU=4th Semester
+emailAddress=abc@gmail.com
+CN = example.com
+[ req_ext ]
+subjectAltName = @alt_names
+
+[ alt_names ]
+DNS.1 = example.com
+IP.1 = 172.20.10.4
